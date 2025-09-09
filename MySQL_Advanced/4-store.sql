@@ -1,4 +1,4 @@
--- write a SQL script that creates a trigger that decreases the quantity of an item in the items table after an order is placed
+-- write a script that creates a trigger that decreases the quantity of an item after adding a new order
 DROP TRIGGER IF EXISTS decrease_quantity;
 
 DELIMITER //
